@@ -18,6 +18,14 @@ Features:
 
 This system is ideal for anyone looking to improve personal productivity and goal tracking through a centralized and structured platform.
 
+<--------------------- Steps to Run the Project --------------------->
+
+1. Open the Examen.sln file in Visual Studio.
+2. Restore the NuGet packages.
+Open the Package Manager Console and run the command: dotnet restore.
+3. Apply the migrations to create the database.
+Open the Package Manager Console and run the command: Update-Database.
+4. You're all set! Run the project.
 
 <--------- Español --------->
 
@@ -37,3 +45,13 @@ Funcionalidades:
 .Interfaz intuitiva para una navegación sencilla
 
 Este sistema es ideal para cualquier persona que busque mejorar su productividad y seguimiento de metas a través de una plataforma centralizada y estructurada.
+
+
+<--------------------- Pasos para ejecutar el proyecto --------------------->
+
+1. Abre el archivo Examen.sln en Visual Studio.
+2. Restaura los paquetes NuGet. 
+- Abre Package Manager Console e ingresa el comando: dotnet restore.
+3. Aplica las migraciones para que se cree la base de datos. 
+- Abre Package Manager Console e ingresa el comando: Update-Database.
+4. ¡Todo listo! Ejecuta el proyecto.
